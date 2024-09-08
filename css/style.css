@@ -292,3 +292,132 @@ img {
         margin: 1rem 0;
     }
 }
+
+
+/*  */
+
+/* Colors */
+.bg-blue {
+    background-color: #1E90FF;
+}
+
+.bg-red {
+    background-color: #FF6347;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-black {
+    color: #000000;
+}
+
+/* Font Sizes */
+.text-sm {
+    font-size: 0.875rem; /* 14px */
+}
+
+.text-lg {
+    font-size: 1.25rem; /* 20px */
+}
+
+.text-xl {
+    font-size: 1.5rem; /* 24px */
+}
+
+/* Padding */
+.p-1 {
+    padding: 0.25rem;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+/* Margin */
+.m-1 {
+    margin: 0.25rem;
+}
+
+.m-2 {
+    margin: 0.5rem;
+}
+
+.m-4 {
+    margin: 1rem;
+}
+
+/* Flexbox Utilities */
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+/* Width */
+.w-full {
+    width: 100%;
+}
+
+.w-1/2 {
+    width: 50%;
+}
+
+/* Border Radius */
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+/* Text Alignment */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Display */
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+/* Hover States */
+.hover\:bg-blue:hover {
+    background-color: #1E90FF;
+}
+
+.hover\:bg-red:hover {
+    background-color: #FF6347;
+}
